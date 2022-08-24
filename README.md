@@ -6,7 +6,7 @@
 This application is a text editor running in the browser. The application supports data persistence techniques in the event of an unsupported event within the browser and even functions offline. 
 
 ## Description
-
+This project was to build a progressive web app that runs in the browser but also offline and is able to be installed to the local machine. The application makes use of a custom service worker, a webpack plugin, a manifest file, and an indexedDB. The text editor will function in a browser but can also be accessed as a seperate app on the local machine once installed and downloaded. In the browser window, the application will continue to display text on browser refresh due to the text being stored in the database. The site is also successfully deployed to heroku with the link available in the Installation section below.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ This application is a text editor running in the browser. The application suppor
 
 ## Installation
 A link to the deployed site can be found [here](https://ks-pwa-text-editor.herokuapp.com/). A screenshot of the site is shown below: 
-![screenshot of deployed site for Progressive Web App - Text Editor](Screenshot.png)
+![screenshot of deployed site for Progressive Web App - Text Editor](client\src\images\Screenshot.png)
 
 ## Usage
 To use this application in an editor, first install all required dependencies. Next, at the root level, run `npm run start` to appropriately serve the client. The application will then open a browser window displaying the J.A.T.E. program that can be installed as a downloaded web application.
